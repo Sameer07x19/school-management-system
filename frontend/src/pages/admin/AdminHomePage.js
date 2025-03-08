@@ -36,7 +36,7 @@ const AdminHomePage = () => {
         <>
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                 <Grid container spacing={3}>
-                    <Grid item xs={12} md={3} lg={3}>
+                    <Grid item xs={12} md={4} lg={4}>
                         <StyledPaper>
                             <img src={Students} alt="Students" />
                             <Title>
@@ -45,7 +45,7 @@ const AdminHomePage = () => {
                             <Data start={0} end={numberOfStudents} duration={2.5} />
                         </StyledPaper>
                     </Grid>
-                    <Grid item xs={12} md={3} lg={3}>
+                    <Grid item xs={12} md={4} lg={4}>
                         <StyledPaper>
                             <img src={Classes} alt="Classes" />
                             <Title>
@@ -54,7 +54,7 @@ const AdminHomePage = () => {
                             <Data start={0} end={numberOfClasses} duration={5} />
                         </StyledPaper>
                     </Grid>
-                    <Grid item xs={12} md={3} lg={3}>
+                    <Grid item xs={12} md={4} lg={4}>
                         <StyledPaper>
                             <img src={Teachers} alt="Teachers" />
                             <Title>
@@ -62,14 +62,6 @@ const AdminHomePage = () => {
                             </Title>
                             <Data start={0} end={numberOfTeachers} duration={2.5} />
                         </StyledPaper>
-                    </Grid>
-                    <Grid item xs={12} md={3} lg={3}>
-                        <StyledPaper>
-                            <img src={Fees} alt="Fees" />
-                            <Title>
-                                Fees Collection
-                            </Title>
-                            <Data start={0} end={23000} duration={2.5} prefix="$" />                        </StyledPaper>
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}>
                         <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
